@@ -3,8 +3,8 @@ body{
 }
 *{font-family : Arial,sans-serif;}
 h2, #title{text-align:center;}
-div > .newpage{
+span > .newpage{
   border-style: solid;
-  border: 3px;
-  border-color:brown;
+  border-color:rgb(0,0,0);
 }
+
