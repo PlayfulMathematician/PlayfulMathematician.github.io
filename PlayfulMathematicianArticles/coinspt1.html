@@ -9,34 +9,14 @@
     <h4>The Playful Mathematician</h3>
     </div>
     <hr>
-    <span style = "text-align:center;">Today I will give you a puzzle on coin flipping. But the way we 
-      solved it almost seems like black magic.</span> 
+    <span style = "text-align:center;">Sometimes the simplest skill can turn a whole problem around. The following coin flipping puzzle illustrates this fundamental fact. Mastery of the skill will turn you into a better mathematician and tear down roadblocks in the world of problem solving. Enough hyperbole let's get to the point.</span> 
     <h2>The Puzzle</h2>
-    Given a arbitrary line of coins ,define a bi-flip is where we flip(if the coin is heads we get tails and vice versa) two 
-consecutive coins. If there existed a 
-composition of bi-flips that resulted in each coin with heads facing up we will call 
-that coin line bi-flip solvable. 
-The goal is to find some condition where if satisfied 
-than the coin line is bi-flip solvable. Also if that condition is not satisfied the coin line is not
-bi-flip solvable. Now let's begin to solve this puzzle.
+A bi-flip is a flip of two consecutive coins in an arbitrary line of coins. Each coin has two sides obverse (heads) is the front of the coin and the reverse (tails) is the back. This puzzle requires consecutive bi-flips (flipping two coins that are next to eachother successively), which we will call a composition of bi-flips. If there exists a composition of bi-flips that results in all the coins with heads facing up, we will call that coin line bi-flip solvable. The goal is to find some condition where if satisfied than the coin line is bi-flip solvable. Conversely, if that condition is not satisfied the coin line is not bi-flip solvable. Now let's begin.
     <h2>The Solution (Semi)</h2>
-    Lets think about how one bi-flip changes the number of coins.
-If there is no tails in those two coins the number of tails will 
-increase by two. The number of heads will decrease by two. IF 
-there is no heads the number of tails will decrease by two and 
-the number of heads will increase by 2.If there is one head and 
-one tail the numbers of heads will not change, the number of 
-tails will not change. So the parity, (whether or not it is odd or
-even), of the number of tails stays
-the same. A composition of bi flips also preserves parity since after each bi-flip the parity doesn't change from one to the other, so overall there is no change.
-    Now if the coin line is bi-flip solvable then there exist a 
-composition of bi-flips which results in 0 tails, so the parity of tails equals the parity of 0. This means there is a even number of  tails.
-So we have a condition that if false implies the coin line is 
-not bi flip solvable. 
+    Let's think about how one bi-flip changes the number of heads and tails in our coin line. If there are no tails in the original pair of coins that will be flipped, the number of tails will increase by two as a result of our bi-flip. If there are two tails in the original pair of coins that will be flipped, the number of tails will decrease by two.If there are one head and one tail in the original pair of coins that will be flipped, the numbers of heads will not change nor will the number of tails. So the parity whether or not the number of tails is odd or even stays the same. A composition of bi-flips also preserves parity because after each bi-flip the parity doesn't change, so overall there is no change. If the coin line is bi-flip solvable, then there exists a composition of bi-flips which results in 0 tails, so the parity of the initial number of tails is the parity of 0. This means there is a even number of tails. We have a condition that if false implies the coin line is not bi-flip solvable.
+
     <h2>Reflections</h2>
-    We haven't proved the whole thing but first a want to reflect
-The way we proved it almost seems magical, although it tells us something about
-math itself. This puzzle include many different things changing and in this mess we analyzed whats constant. This is what I want you to take a way from this article: Always look at whats constant in a changing mess.
+   We haven't proved the whole thing but first we should appreciate the way we proved it.It tells us something about math itself. This puzzle includes many different things changing and in this mess we analyzed what is constant. This is what I want you to take a way from this article: Always look at what's constant in a changing mess
     <div class = "spacer-div-20px"></div>
     <br><span class="link"><a href = "part2.html" class = "newpage">Read Part 2</a></span>
     <span class ="link"><a href = "home.html" class = "newpage">Home Page</a></span>
