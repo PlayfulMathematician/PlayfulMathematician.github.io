@@ -9,12 +9,12 @@ h2, #title{text-align:center;}
   padding-top:20px;
   padding-left: 13px;
   padding-right:13px;
-  box-shadow: 5px 10px 5px;
+  box-shadow: 5px 10px 10px;
 }
 .spacer-div-20px{
   margin-top:20px
 }
 .link:hover{
-  box-shadow: 5px 10px 10px;
+  box-shadow: 5px 10px 5px;
 }
 
