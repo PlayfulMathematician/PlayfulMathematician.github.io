@@ -21,4 +21,12 @@ hr{
 .link:hover{
   box-shadow: 5px 10px 5px;
 }
+    body{
+      background-color: #ffffff;
+    }
+    #top{
+      background-color:#284ad1;
+      color:#ffffff;
+      padding:8px;
+    }
 
