@@ -19,3 +19,4 @@ function main()
 
 }
 $(document).ready(main)
+console.log("a")
