@@ -1,7 +1,7 @@
 
 var pages = [['coinspt1', 'A Very Specific Puzzle on Coin Flipping Part 1']];
 // pages.push(["coinspt2", "A Very Specific Puzzle on Coin Flipping Part 2"])
-pages.push(["thegreaticosahedron.html", "The Great Icosahedron"])
+pages.push(["thegreaticosahedron", "The Great Icosahedron"])
 function main()
 {
     pageLinks = []
