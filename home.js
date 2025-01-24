@@ -1,7 +1,9 @@
 
-var pages = [['coinspt1', 'A Very Specific Puzzle on Coin Flipping Part 1']];
+var pages = [];
 // pages.push(["coinspt2", "A Very Specific Puzzle on Coin Flipping Part 2"])
-pages.push(["thegreaticosahedron", "The Great Icosahedron"])
+pages.push(["zomebuilds", "My Zome Builds"])
+pages.push(['coinspt1', 'A Very Specific Puzzle on Coin Flipping Part 1'])
+
 function main()
 {
     pageLinks = []
