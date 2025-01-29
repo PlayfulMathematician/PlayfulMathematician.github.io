@@ -7,8 +7,8 @@
    <div id = "top">
     <div id = "title">
       <h1><span>A Really Specific Puzzle On Coin Flipping Part 1 <br> (SoMe Submission)</span></h1> 
-    <h3><span>Aug 2022</span></h3>
-      <h4><span>The Playful Mathematician</span></h4>
+    <h2><span>Aug 2022</span></h2>
+      <h3><span>The Playful Mathematician</span></h3>
     </div>
     </div>
     <hr>
@@ -18,7 +18,7 @@
     <h2><span>The Puzzle</span></h2>
 <span>A bi-flip is a flip of two consecutive coins in an arbitrary line of coins. Each coin has two sides obverse (heads) is the front of the coin and the reverse (tails) is the back. This puzzle requires applying succesive bi-flips, which we will call a composition of bi-flips. If there exists a composition of bi-flips that results in all the coins with heads facing up, we will call that coin line bi-flip solvable. The goal is to find some condition where if satisfied than the coin line is bi-flip solvable. Conversely, if that condition is not satisfied the coin line is not bi-flip solvable. Now let's begin.
       </span>
- <div class = "spacer-div-20px"></div>  <img src = "PosterForThingy.png" alt ="Example" id = "img" display = "block">
+ <div class = "spacer-div-20px"></div>  <img src = "PosterForThingy.png" alt ="Example of Biflip Solvability" id = "img" display = "block">
 <h2><span>The Solution (sort of)</span></h2>
    <span> Let's think about how one bi-flip changes the number of heads and tails in our coin line. If there are no tails in the original pair of coins that will be flipped, the number of tails will increase by two as a result of our bi-flip. If there are two tails in the original pair of coins that will be flipped, the number of tails will decrease by two.If there are one head and one tail in the original pair of coins that will be flipped, the numbers of heads will not change nor will the number of tails. The parity (whether or not the number of tails is odd or even) stays the same after an indivual bi-flip to any coin-line. A composition of bi-flips also preserves parity because after each bi-flip the parity doesn't change, so in the end there is no change. If the coin line is bi-flip solvable, then there exists a composition of bi-flips which results in 0 tails, so the parity of the initial number of tails is the parity of 0. This means there is a even number of tails. We have a condition that if false implies the coin line is not bi-flip solvable.
       </span>
@@ -26,8 +26,7 @@
    <span>We haven't proved the whole thing but first we should appreciate the way we proved it.It tells us something about math itself. This puzzle includes many different things changing and in this mess we analyzed what is constant. This is what I want you to take a way from this article: Always look at what's constant in a changing mess
       </span>
      <div class = "spacer-div-20px"></div>
-    <br><span class="link"><a class = "newpage">Part 2 Coming Soon</a></span>
-    <span class ="link"><a class = "newpage" href = "index.html">Home Page</a></span>
+    <span class ="link"><a class = "newpage" aria-label="Go to Home Page" href = "index.html">Home Page</a></span>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
     w=window.innerWidth*(0.25);
