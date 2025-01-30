@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="71" field="golden" version="7.1">
-  <EditHistory editNumber="76" lastStickyEdit="-1">
+  <EditHistory editNumber="92" lastStickyEdit="-1">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="22" len="1 1"/>
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="39" len="1 1"/>
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="8" len="1 1"/>
@@ -20,56 +20,72 @@
     <SelectManifestation point="-1 -2 -1 -2 1 2"/>
     <SelectManifestation point="-1 -1 2 3 0 0"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="-2 -3 0 0 -1 -1"/>
     <SelectManifestation point="1 2 1 2 -1 -2"/>
     <SelectManifestation point="0 0 1 1 2 3"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="0 0 -1 -1 -2 -3"/>
     <SelectManifestation point="-1 -1 2 3 0 0"/>
     <SelectManifestation point="2 3 0 0 1 1"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="1 1 -2 -3 0 0"/>
     <SelectManifestation point="-2 -3 0 0 -1 -1"/>
     <SelectManifestation point="1 2 1 2 -1 -2"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="-1 -2 -1 -2 1 2"/>
     <SelectManifestation point="0 0 -1 -1 -2 -3"/>
     <SelectManifestation point="2 3 0 0 1 1"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="1 1 -2 -3 0 0"/>
     <SelectManifestation point="1 2 1 2 -1 -2"/>
     <SelectManifestation point="0 0 1 1 2 3"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="2 3 0 0 1 1"/>
     <SelectManifestation point="-1 -1 2 3 0 0"/>
     <SelectManifestation point="-1 -2 -1 -2 1 2"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation point="0 0 1 1 2 3"/>
     <SelectManifestation point="-2 -3 0 0 -1 -1"/>
     <SelectManifestation point="1 1 -2 -3 0 0"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <BeginBlock/>
     <DeselectAll/>
     <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
@@ -77,6 +93,62 @@
     <Delete/>
     <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="IGNORE" struts="SELECT"/>
     <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 -1 -1 -2 -3"/>
+      <polygonVertex at="-1 -1 2 3 0 0"/>
+      <polygonVertex at="2 3 0 0 1 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 -1 -1 -2 -3"/>
+      <polygonVertex at="-1 -2 -1 -2 1 2"/>
+      <polygonVertex at="-1 -1 2 3 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -2 -1 -2 1 2"/>
+      <polygonVertex at="0 0 -1 -1 -2 -3"/>
+      <polygonVertex at="2 3 0 0 1 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 3 0 0 1 1"/>
+      <polygonVertex at="-1 -1 2 3 0 0"/>
+      <polygonVertex at="-1 -2 -1 -2 1 2"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="51" green="51" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 1 -2 -3 0 0"/>
+      <polygonVertex at="1 2 1 2 -1 -2"/>
+      <polygonVertex at="0 0 1 1 2 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 1 -2 -3 0 0"/>
+      <polygonVertex at="1 2 1 2 -1 -2"/>
+      <polygonVertex at="0 0 1 1 2 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 1 1 2 3"/>
+      <polygonVertex at="-2 -3 0 0 -1 -1"/>
+      <polygonVertex at="1 1 -2 -3 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 1 -2 -3 0 0"/>
+      <polygonVertex at="-2 -3 0 0 -1 -1"/>
+      <polygonVertex at="1 2 1 2 -1 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 1 -2 -3 0 0"/>
+      <polygonVertex at="1 2 1 2 -1 -2"/>
+      <polygonVertex at="0 0 1 1 2 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -3 0 0 -1 -1"/>
+      <polygonVertex at="1 2 1 2 -1 -2"/>
+      <polygonVertex at="0 0 1 1 2 3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="51" red="51"/>
   </EditHistory>
   <notes/>
   <sceneModel ambientLight="41,41,41" background="175,200,220">
@@ -87,8 +159,8 @@
   <Viewing>
     <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.5839215517044067" y="-0.048019181936979294" z="0.8103904128074646"/>
-      <LookDirection x="0.3142109811306" y="-0.9338116645812988" z="0.17107148468494415"/>
+      <UpDirection x="-0.7282125353813171" y="0.48772138357162476" z="0.48149508237838745"/>
+      <LookDirection x="-0.63966304063797" y="-0.7358941435813904" z="-0.22201277315616608"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="printable">
