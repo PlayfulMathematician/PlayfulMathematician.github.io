@@ -9,6 +9,6 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: "https://playfulmathematician.com",
-  base: "newsite"
+  base: "/newsite"
   
 });
