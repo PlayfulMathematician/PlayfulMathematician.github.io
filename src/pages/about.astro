@@ -1,20 +1,26 @@
 ---
-import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
-
+import Navigation from '../components/Navigation.astro';
 ---
-
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Yay</title>
+		<title>About Me</title>
+        <style>
+            h1 {
+                color: purple;
+                font-size: 4rem;
+            }
+        </style>
 	</head>
 	<body>
-	<Navigation />
+        <Navigation />
 
-		<h1>Astro Yay</h1>
+
+            <h1>Astro Yay: this is about page</h1>
 	</body>
 </html>
