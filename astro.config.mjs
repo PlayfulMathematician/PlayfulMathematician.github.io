@@ -8,6 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: "playfulmathematician.com"
+  site: "https://playfulmathematician.com",
+  base: "/"
   
 });
